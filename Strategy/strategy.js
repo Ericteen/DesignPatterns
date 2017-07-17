@@ -1,3 +1,7 @@
+/**
+ * Strategy Pattern
+ * @description 用策略模式进行表单验证
+ */
 var validator = {
     // all available checks
     types: {},
