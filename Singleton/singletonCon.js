@@ -72,7 +72,7 @@ console.log(a === b); // true
 var getSingle = function(fn) {
     var result;
     return function() {
-        reslut = fn.apply(this, arguments);
+        reslut = result || fn.apply(this, arguments);
         return result;
     };
 };
