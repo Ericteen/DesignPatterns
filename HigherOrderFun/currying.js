@@ -39,3 +39,11 @@ Function.prototype.uncurrying = function () {
     return __self.apply(obj, arguments);
   };
 };
+
+// OR
+Function.prototype.uncurrying = function () {
+  var __self = this;
+  return function () {
+    Function.prototype.apply(__self, arguments);
+  };
+}
