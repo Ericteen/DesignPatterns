@@ -1,0 +1,23 @@
+{
+  "name": "designpatterns",
+  "version": "1.0.0",
+  "description": "关于 JavaScript 设计模式的总结。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ericteen/DesignPatterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ericteen/DesignPatterns/issues"
+  },
+  "homepage": "https://github.com/Ericteen/DesignPatterns#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
