@@ -1,7 +1,7 @@
 # Design Patterns in JavaScript
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
 关于 JavaScript 设计模式的总结。
 
