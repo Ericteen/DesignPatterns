@@ -5,7 +5,7 @@ var observer = {
 
   unsubscribe: function (cb) {
     for (var i = 0, len = this.observerList.lenth; i < len; i++) {
-      if (this.observerList[i] === cb) {
+      if (typeof this.observerList[i] === cb) {
         delete this.observerList[i];
       }
     }
